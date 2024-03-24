@@ -1,9 +1,7 @@
 <div align="center">
 
 <div>
-    <a href="https://blog.sunguoqi.com/">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=给时光以生命，给岁月以文明&center=true&size=27" />
-    </a>
 </div>
 
 <div>&nbsp;</div>
