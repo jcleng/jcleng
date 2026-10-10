@@ -400,9 +400,52 @@ def replace_block(text: str, name: str, content: str) -> str:
     return pattern.sub(lambda m: f"{m.group(1)}\n{content}{m.group(3)}", text, count=1)
 
 
+def check_comment_nesting(text: str) -> None:
+    """Fail loudly if a malformed HTML comment would leak text onto the page.
+
+    HTML comments do not nest: the first `-->` after a `<!--` closes it. A
+    literal `<!--AUTO:...-->` written *inside* another comment therefore ends
+    that comment early and the remaining lines render as visible text. AUTO
+    markers must always sit outside other comments.
+    """
+    for lineno, line in enumerate(text.splitlines(), 1):
+        stripped = line.strip()
+        if stripped.startswith("<!--AUTO:") or stripped.startswith("<!--/AUTO:"):
+            continue
+        opens = line.count("<!--")
+        closes = line.count("-->")
+        # An AUTO marker line legitimately contains both; anything else that
+        # both opens and closes a comment on one line is suspect.
+        if opens and closes and "<!--" not in stripped[:4]:
+            raise RuntimeError(
+                f"line {lineno}: a comment opens and closes on the same line; "
+                f"this usually means an AUTO marker is nested inside a comment: {line!r}"
+            )
+
+    # Detect the early-close leak directly: walk the text the way a Markdown
+    # renderer does and confirm no AUTO marker sits inside a comment span.
+    i = 0
+    while True:
+        start = text.find("<!--", i)
+        if start < 0:
+            break
+        end = text.find("-->", start + 4)
+        if end < 0:
+            break
+        span = text[start : end + 3]
+        if span.count("<!--") > 1:
+            line = text[:start].count("\n") + 1
+            raise RuntimeError(
+                f"line {line}: nested comment start detected; the outer comment "
+                f"closes early and leaks text onto the profile page"
+            )
+        i = end + 3
+
+
 def main() -> int:
     with open(README, encoding="utf-8") as fh:
         original = fh.read()
+    check_comment_nesting(original)
     text = original
 
     user = rest(f"/users/{LOGIN}")

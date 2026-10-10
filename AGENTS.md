@@ -71,6 +71,11 @@ never blanks the profile.
   count as two columns (`dwidth`/`pad`). Verify alignment after editing the box.
 - **stdlib only.** No pip install in CI; do not add third-party imports.
 - **Fail soft.** Retries for transient network/5xx errors; 4xx fails fast.
+- **Never nest HTML comments.** HTML comments do not nest: the first `-->`
+  closes the comment. Writing a literal `<!--AUTO:...-->` inside another comment
+  ends it early and leaks the remaining lines onto the profile page. AUTO markers
+  must always sit outside other comments. `check_comment_nesting()` in the script
+  fails the run if this happens.
 
 ## Workflow Notes
 

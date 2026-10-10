@@ -6,10 +6,14 @@
 ╚█████╔╝╚██████╗███████╗███████╗██║ ╚████║╚██████╔╝
  ╚════╝  ╚═════╝╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝
 
-  This README is self-updating.
-  .github/workflows/update-profile.yml regenerates every
-  <!--AUTO:...--> block below from the live GitHub API.
-  Do not hand-edit inside the markers; edit scripts/update_profile.py instead.
+  This README is self-updating. Every AUTO block below is regenerated from
+  the live GitHub API by .github/workflows/update-profile.yml. Do not
+  hand-edit inside the markers; edit scripts/update_profile.py instead.
+  See AGENTS.md for details.
+
+  NOTE: never write a literal comment-open/close pair inside this header.
+  HTML comments do not nest, so an inner closing tag would end this comment
+  early and leak the remaining lines onto the profile page.
 -->
 
 <div align="center">
@@ -107,7 +111,7 @@ jcleng@github:~$ ./stats.sh --all
   2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
   2024   143  ▇▇▇▇▇▇▇▇▇▇························
   2025    95  ▇▇▇▇▇▇····························
-  2026   362  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇·········   ← this year
+  2026   364  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇·········   ← this year
 ```
 <!--/AUTO:YEARLY-->
 
