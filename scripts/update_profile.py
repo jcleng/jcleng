@@ -200,18 +200,30 @@ def block_profile(user: dict, repos: list[dict]) -> str:
 
 
 def block_langmatrix(repos: list[dict]) -> str:
-    """Language shares from real Linguist byte counts (GraphQL languages)."""
-    nodes = [r for r in repos if not r["fork"]]
-    if not nodes:
+    """Language shares from real Linguist byte counts.
+
+    Scoped to PUBLIC non-fork repositories so the numbers match the repo count
+    shown elsewhere and never expose private code. Without `privacy:PUBLIC` a
+    maintainer token would see private repos while CI's GITHUB_TOKEN would not,
+    producing different output in each environment.
+    """
+    if not [r for r in repos if not r["fork"]]:
         raise RuntimeError("no repositories to scan")
 
     query = """
-    query($login:String!){
+    query($login:String!,$cursor:String){
       user(login:$login){
-        repositories(first:100,ownerAffiliations:OWNER,isFork:false){
+        repositories(
+          first:100
+          after:$cursor
+          ownerAffiliations:OWNER
+          isFork:false
+          privacy:PUBLIC
+          orderBy:{field:STARGAZERS,direction:DESC}
+        ){
+          pageInfo{ hasNextPage endCursor }
           nodes{
-            name
-            languages(first:12,orderBy:{field:SIZE,direction:DESC}){
+            languages(first:15,orderBy:{field:SIZE,direction:DESC}){
               totalSize edges{ size node{ name } }
             }
           }
@@ -219,14 +231,23 @@ def block_langmatrix(repos: list[dict]) -> str:
       }
     }
     """
-    data = graphql(query, {"login": LOGIN})
+
     agg: dict[str, int] = {}
     total = 0
-    for node in data["user"]["repositories"]["nodes"]:
-        langs = node["languages"]
-        total += langs["totalSize"]
-        for edge in langs["edges"]:
-            agg[edge["node"]["name"]] = agg.get(edge["node"]["name"], 0) + edge["size"]
+    cursor: str | None = None
+    for _ in range(20):  # hard stop; 2000 repos is far beyond any real profile
+        data = graphql(query, {"login": LOGIN, "cursor": cursor})
+        conn = data["user"]["repositories"]
+        for node in conn["nodes"]:
+            langs = node["languages"]
+            total += langs["totalSize"]
+            for edge in langs["edges"]:
+                name = edge["node"]["name"]
+                agg[name] = agg.get(name, 0) + edge["size"]
+        if not conn["pageInfo"]["hasNextPage"]:
+            break
+        cursor = conn["pageInfo"]["endCursor"]
+
     if not total:
         raise RuntimeError("linguist returned no bytes")
 

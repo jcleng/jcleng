@@ -29,7 +29,7 @@ jobs:
             dist/snake-dark.svg?palette=github-dark&color_snake=#00ff41
 
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
