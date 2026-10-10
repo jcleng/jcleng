@@ -5,6 +5,11 @@
 ██╗██║██║     ██║     ██╔══╝  ██║╚██╗██║██║   ██║
 ╚█████╔╝╚██████╗███████╗███████╗██║ ╚████║╚██████╔╝
  ╚════╝  ╚═════╝╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝
+
+  This README is self-updating.
+  .github/workflows/update-profile.yml regenerates every
+  <!--AUTO:...--> block below from the live GitHub API.
+  Do not hand-edit inside the markers; edit scripts/update_profile.py instead.
 -->
 
 <div align="center">
@@ -24,22 +29,24 @@
 
 </div>
 
+<!--AUTO:PROFILE-->
 ```console
 jcleng@github:~$ cat /etc/profile.d/operator.conf
 
   ┌───────────────────────────────────────────────────────────────┐
-  │  OPERATOR   :  jcleng                                         │
-  │  LOCATION   :  Chongqing, CN                                  │
-  │  UPTIME     :  coding since 2015  ·  11 yrs in the terminal   │
-  │  OS         :  NixOS  ·  Arch  ·  Linux  (daily driver)       │
-  │  SHELL      :  zsh  +  tmux  +  nvim                          │
-  │  STACK      :  PHP · JavaScript/TS · Shell · Nix · Docker     │
-  │  INTERESTS  :  self-hosted · flatpak · homelab · AI agents    │
-  │  PHILOSOPHY :  "Automate it, containerize it, self-host it."  │
+  │  OPERATOR  :  jcleng                                          │
+  │  LOCATION  :  Chongqing CN                                    │
+  │  UPTIME    :  coding since 2015  ·  11 yrs in the terminal    │
+  │  OS        :  NixOS  ·  Arch  ·  Linux  (daily driver)        │
+  │  SHELL     :  zsh  +  tmux  +  nvim                           │
+  │  STACK     :  Shell · PHP · JavaScript · Dockerfile · HTML    │
+  │  INTERESTS :  self-hosted · flatpak · homelab · AI agents     │
+  │  PHILOSOPHY:  "Automate it, containerize it, self-host it."   │
   └───────────────────────────────────────────────────────────────┘
 
 jcleng@github:~$ ./stats.sh --all
 ```
+<!--/AUTO:PROFILE-->
 
 <br/>
 
@@ -49,6 +56,7 @@ jcleng@github:~$ ./stats.sh --all
 
 <sub>real bytes scanned by GitHub Linguist across all original repositories</sub>
 
+<!--AUTO:LANGMATRIX-->
 ```text
   JavaScript   36.5%  ██████████████████████████░░
   PHP          25.7%  ██████████████████░░░░░░░░░░
@@ -60,6 +68,7 @@ jcleng@github:~$ ./stats.sh --all
   Shell         1.0%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
   C             1.0%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
+<!--/AUTO:LANGMATRIX-->
 
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=php,js,ts,html,css,nix,bash,docker,linux,git,githubactions,mysql,redis,nginx,nodejs,vue,go,python,vscode,neovim&theme=dark&perline=10" alt="skills"/>
@@ -91,14 +100,16 @@ jcleng@github:~$ ./stats.sh --all
 
 <sub>contributions per year — public commits · PRs · issues · reviews</sub>
 
+<!--AUTO:YEARLY-->
 ```text
   2021    85  ▇▇▇▇▇▇····························
   2022    26  ▇▇································
   2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
   2024   143  ▇▇▇▇▇▇▇▇▇▇························
   2025    95  ▇▇▇▇▇▇····························
-  2026   359  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇··········   ← this year
+  2026   360  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇··········   ← this year
 ```
+<!--/AUTO:YEARLY-->
 
 <img src="https://ghchart.rshah.org/00ff41/jcleng" width="96%" alt="contribution chart"/>
 
@@ -118,18 +129,22 @@ jcleng@github:~$ ./stats.sh --all
 
 ## `[ 04 ]` // FEATURED REPOSITORIES
 
+<!--AUTO:FEATURED-->
 | ★ | Repository | Stack | What it is |
 |:---:|---|---|---|
-| **33** | [nixos-configuration](https://github.com/jcleng/nixos-configuration) | `Nix` | 自用 NixOS 配置 — declarative 一切 |
-| **10** | [finalshell_linux_archive](https://github.com/jcleng/finalshell_linux_archive) | `Shell` | FinalShell Linux 包镜像存档 |
-| **8** | [WineWechat-linux-flatpak](https://github.com/jcleng/WineWechat-linux-flatpak) | `Shell` | Wine 微信 Flatpak 打包 |
-| **5** | [finalshell-linux-flatpak](https://github.com/jcleng/finalshell-linux-flatpak) | `Shell` | FinalShell 上架 Flathub |
-| **4** | [opentelemetry-exporter-zincsearch](https://github.com/jcleng/opentelemetry-exporter-zincsearch) | `PHP` | OpenTelemetry → ZincSearch exporter |
-| **3** | [opencode-free-provider](https://github.com/jcleng/opencode-free-provider) | `JS` | OpenCode Zen 免费层本地代理 |
-| **1** | [minecraft-server-status](https://github.com/jcleng/minecraft-server-status) | `PHP` | Minecraft 服务器状态查询 |
-| **1** | [gl-ar300m-ext-nand](https://github.com/jcleng/gl-ar300m-ext-nand) | `C` | OpenWrt 固件构建 (ar300m / x86) |
+| **33** | [nixos-configuration](https://github.com/jcleng/nixos-configuration) | `Nix` | nixos 自用配置 |
+| **10** | [finalshell_linux_archive](https://github.com/jcleng/finalshell_linux_archive) | `Shell` | download finalshell_linux.zip from dl.hostbuf.com |
+| **8** | [WineWechat-linux-flatpak](https://github.com/jcleng/WineWechat-linux-flatpak) | `Shell` | Wine微信flatpak版本 |
+| **5** | [finalshell-linux-flatpak](https://github.com/jcleng/finalshell-linux-flatpak) | `Shell` | 一个免费且好用的ssh工具 已经更新到flathub了 |
+| **4** | [opentelemetry-exporter-zincsearch](https://github.com/jcleng/opentelemetry-exporter-zincsearch) | `PHP` | zincsearch exporter for OpenTelemetry. |
+| **3** | [opencode-free-provider](https://github.com/jcleng/opencode-free-provider) | `JavaScript` | Local OpenAI-compatible proxy for OpenCode Zen free… |
+| **1** | [deepin-wine6-stable-flatpak](https://github.com/jcleng/deepin-wine6-stable-flatpak) | `Shell` | for 32位支持 |
+| **1** | [minecraft-server-status](https://github.com/jcleng/minecraft-server-status) | `PHP` | minecraft服务器状态查看 |
+<!--/AUTO:FEATURED-->
 
-<sub>`49` original repositories · `67` stars earned · `86` forks contributed</sub>
+<!--AUTO:REPOCOUNT-->
+<sub>`49` original repositories · `67` stars earned · `10` forks received</sub>
+<!--/AUTO:REPOCOUNT-->
 
 </div>
 

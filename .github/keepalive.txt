@@ -1,0 +1,8 @@
+# Keep-alive marker for the "Update Profile README" workflow.
+#
+# GitHub automatically disables scheduled workflows after 60 days of repository
+# inactivity. When this repo has been idle for 30+ days, the scheduled run
+# rewrites this file so the workflow stays enabled.
+#
+# Do not delete: the commit step references this path.
+last keepalive: (updated automatically when the repository is idle)

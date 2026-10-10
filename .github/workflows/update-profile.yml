@@ -1,0 +1,64 @@
+name: Update Profile README
+
+on:
+  schedule:
+    - cron: '0 2,14 * * *'  # every 12 hours (UTC)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-profile.yml'
+      - 'scripts/update_profile.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Regenerate README blocks from the GitHub API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_profile.py
+
+      # Keeps scheduled workflows alive: GitHub disables them after 60 days
+      # without repository activity. Only commits when the repo has been idle
+      # for 30+ days, so this stays quiet during normal development.
+      - name: Keep-alive when idle
+        if: github.event_name == 'schedule'
+        run: |
+          set -euo pipefail
+          last=$(git log -1 --format=%ct)
+          now=$(date +%s)
+          idle_days=$(( (now - last) / 86400 ))
+          echo "days since last commit: ${idle_days}"
+          if [ "${idle_days}" -lt 30 ]; then
+            echo "repo is active; no keep-alive commit needed"
+            exit 0
+          fi
+          printf 'last keepalive: %s\n' "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" > .github/keepalive.txt
+          echo "keep-alive marker written after ${idle_days} idle days"
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: auto-update profile README [skip ci]'
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
+          file_pattern: 'readme.md .github/keepalive.txt'

@@ -6,10 +6,12 @@ on:
     - cron: "0 */12 * * *"
   # allow manual trigger
   workflow_dispatch:
-  # run on every push to main
+  # regenerate when this workflow itself changes
   push:
     branches:
       - main
+    paths:
+      - '.github/workflows/snake.yml'
 
 jobs:
   generate:
