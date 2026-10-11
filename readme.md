@@ -111,7 +111,7 @@ jcleng@github:~$ ./stats.sh --all
   2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
   2024   143  ▇▇▇▇▇▇▇▇▇▇························
   2025    95  ▇▇▇▇▇▇····························
-  2026   365  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇·········   ← this year
+  2026   367  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇·········   ← this year
 ```
 <!--/AUTO:YEARLY-->
 
@@ -139,15 +139,15 @@ jcleng@github:~$ ./stats.sh --all
 | **33** | [nixos-configuration](https://github.com/jcleng/nixos-configuration) | `Nix` | nixos 自用配置 |
 | **10** | [finalshell_linux_archive](https://github.com/jcleng/finalshell_linux_archive) | `Shell` | download finalshell_linux.zip from dl.hostbuf.com |
 | **8** | [WineWechat-linux-flatpak](https://github.com/jcleng/WineWechat-linux-flatpak) | `Shell` | Wine微信flatpak版本 |
+| **6** | [opencode-free-provider](https://github.com/jcleng/opencode-free-provider) | `JavaScript` | Local OpenAI-compatible proxy for OpenCode Zen free… |
 | **5** | [finalshell-linux-flatpak](https://github.com/jcleng/finalshell-linux-flatpak) | `Shell` | 一个免费且好用的ssh工具 已经更新到flathub了 |
 | **4** | [opentelemetry-exporter-zincsearch](https://github.com/jcleng/opentelemetry-exporter-zincsearch) | `PHP` | zincsearch exporter for OpenTelemetry. |
-| **3** | [opencode-free-provider](https://github.com/jcleng/opencode-free-provider) | `JavaScript` | Local OpenAI-compatible proxy for OpenCode Zen free… |
 | **1** | [deepin-wine6-stable-flatpak](https://github.com/jcleng/deepin-wine6-stable-flatpak) | `Shell` | for 32位支持 |
-| **1** | [minecraft-server-status](https://github.com/jcleng/minecraft-server-status) | `PHP` | minecraft服务器状态查看 |
+| **1** | [ghcr-proxy](https://github.com/jcleng/ghcr-proxy) | `Dockerfile` | 🤖 用 Caddy 反向代理加速 ghcr.io 镜像拉取 |
 <!--/AUTO:FEATURED-->
 
 <!--AUTO:REPOCOUNT-->
-<sub>`49` original repositories · `67` stars earned · `10` forks received</sub>
+<sub>`49` original repositories · `72` stars earned · `10` forks received</sub>
 <!--/AUTO:REPOCOUNT-->
 
 </div>
