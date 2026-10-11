@@ -18,7 +18,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,60:003b16,100:00ff41&height=200&section=header&text=jcleng&fontSize=68&fontColor=00ff41&fontAlignY=36&desc=Full-Stack%20Dev%20%2F%2F%20Homelab%20Builder%20%2F%2F%20Linux%20%26%20NixOS&descAlignY=58&descSize=16&animation=twinkling" width="100%" alt="header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,60:003b16,100:00ff41&height=200&section=header&text=jcleng&fontSize=68&fontColor=00ff41&fontAlignY=36&desc=Full-Stack%20Dev%20%2F%2F%20Homelab%20Builder%20%2F%2F%20Linux%20%2B%20NixOS&descAlignY=58&descSize=16&animation=twinkling" width="100%" alt="header"/>
 
 <a href="https://book.2011101.xyz/">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=800&color=00FF41&background=00000000&center=true&vCenter=true&width=720&lines=%3E+whoami+%E2%86%92+jcleng%2C+Chongqing+CN;%3E+sudo+apt+install+curiosity+%26%26+./keep_building.sh;%3E+echo+%22PHP+%7C+JS%2FTS+%7C+Shell+%7C+Nix+%7C+Docker%22;%3E+git+commit+-m+%22another+day%2C+another+deploy%22" alt="typing"/>

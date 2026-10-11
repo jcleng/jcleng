@@ -9,6 +9,7 @@ workflow. Nothing inside an `<!--AUTO:...-->` marker should be hand-edited.
 ```
 readme.md                              the profile page (generated blocks inside markers)
 scripts/update_profile.py              regenerates every AUTO block (stdlib only)
+scripts/check_assets.py                validates every external image URL
 .github/workflows/update-profile.yml   refresh every 12h + on demand
 .github/workflows/snake.yml            contribution snake -> `output` branch
 .github/keepalive.txt                  marker committed only when the repo goes idle
@@ -20,6 +21,9 @@ scripts/update_profile.py              regenerates every AUTO block (stdlib only
 # Regenerate all AUTO blocks locally (needs a token with repo read access)
 export GITHUB_TOKEN=$(gh auth token)
 python3 scripts/update_profile.py
+
+# Validate every external image (XML well-formedness + reachability)
+python3 scripts/check_assets.py
 
 # Preview what the workflow would commit
 git diff readme.md
@@ -76,6 +80,12 @@ never blanks the profile.
   ends it early and leaks the remaining lines onto the profile page. AUTO markers
   must always sit outside other comments. `check_comment_nesting()` in the script
   fails the run if this happens.
+- **Escape `&` in card parameters.** Query strings are URL-decoded by the card
+  service, which then interpolates the value into its SVG. A literal `&` in a
+  parameter (e.g. `desc=Linux%20%26%20NixOS`) is emitted unescaped and makes the
+  SVG invalid XML, so the browser shows the `alt` text instead of the image.
+  Use `+` (`Linux%20%2B%20NixOS`) or another wording. `check_assets.py` catches
+  this by parsing each asset as XML.
 
 ## Workflow Notes
 

@@ -9,6 +9,7 @@ on:
     paths:
       - '.github/workflows/update-profile.yml'
       - 'scripts/update_profile.py'
+      - 'scripts/check_assets.py'
 
 permissions:
   contents: write
@@ -36,6 +37,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/update_profile.py
+
+      - name: Validate external assets
+        run: python3 scripts/check_assets.py
 
       # Keeps scheduled workflows alive: GitHub disables them after 60 days
       # without repository activity. Only commits when the repo has been idle
