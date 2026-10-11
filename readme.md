@@ -62,15 +62,15 @@ jcleng@github:~$ ./stats.sh --all
 
 <!--AUTO:LANGMATRIX-->
 ```text
-  JavaScript   42.7%  ████████████████████████████
-  C++          20.1%  ██████████████░░░░░░░░░░░░░░
-  PHP          14.8%  ██████████░░░░░░░░░░░░░░░░░░
-  HTML         13.5%  █████████░░░░░░░░░░░░░░░░░░░
+  JavaScript   42.6%  ████████████████████████████
+  C++          20.0%  ██████████████░░░░░░░░░░░░░░
+  PHP          14.7%  ██████████░░░░░░░░░░░░░░░░░░
+  HTML         13.4%  █████████░░░░░░░░░░░░░░░░░░░
   CSS           4.1%  ███░░░░░░░░░░░░░░░░░░░░░░░░░
   Makefile      1.6%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
   C             1.2%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
-  Shell         0.7%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
-  Smarty        0.3%  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Shell         0.9%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Python        0.4%  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 <!--/AUTO:LANGMATRIX-->
 
@@ -111,7 +111,7 @@ jcleng@github:~$ ./stats.sh --all
   2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
   2024   143  ▇▇▇▇▇▇▇▇▇▇························
   2025    95  ▇▇▇▇▇▇····························
-  2026   370  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇·········   ← this year
+  2026   375  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇·········   ← this year
 ```
 <!--/AUTO:YEARLY-->
 
@@ -139,7 +139,7 @@ jcleng@github:~$ ./stats.sh --all
 | **33** | [nixos-configuration](https://github.com/jcleng/nixos-configuration) | `Nix` | nixos 自用配置 |
 | **10** | [finalshell_linux_archive](https://github.com/jcleng/finalshell_linux_archive) | `Shell` | download finalshell_linux.zip from dl.hostbuf.com |
 | **8** | [WineWechat-linux-flatpak](https://github.com/jcleng/WineWechat-linux-flatpak) | `Shell` | Wine微信flatpak版本 |
-| **6** | [opencode-free-provider](https://github.com/jcleng/opencode-free-provider) | `JavaScript` | Local OpenAI-compatible proxy for OpenCode Zen free… |
+| **7** | [opencode-free-provider](https://github.com/jcleng/opencode-free-provider) | `JavaScript` | Local OpenAI-compatible proxy for OpenCode Zen free… |
 | **5** | [finalshell-linux-flatpak](https://github.com/jcleng/finalshell-linux-flatpak) | `Shell` | 一个免费且好用的ssh工具 已经更新到flathub了 |
 | **4** | [opentelemetry-exporter-zincsearch](https://github.com/jcleng/opentelemetry-exporter-zincsearch) | `PHP` | zincsearch exporter for OpenTelemetry. |
 | **1** | [deepin-wine6-stable-flatpak](https://github.com/jcleng/deepin-wine6-stable-flatpak) | `Shell` | for 32位支持 |
@@ -147,7 +147,7 @@ jcleng@github:~$ ./stats.sh --all
 <!--/AUTO:FEATURED-->
 
 <!--AUTO:REPOCOUNT-->
-<sub>`49` original repositories · `72` stars earned · `10` forks received</sub>
+<sub>`50` original repositories · `73` stars earned · `10` forks received</sub>
 <!--/AUTO:REPOCOUNT-->
 
 </div>
