@@ -62,11 +62,11 @@ jcleng@github:~$ ./stats.sh --all
 
 <!--AUTO:LANGMATRIX-->
 ```text
-  JavaScript   42.4%  ████████████████████████████
-  C++          19.8%  ██████████████░░░░░░░░░░░░░░
-  PHP          14.6%  ██████████░░░░░░░░░░░░░░░░░░
-  HTML         13.3%  █████████░░░░░░░░░░░░░░░░░░░
-  CSS           4.0%  ███░░░░░░░░░░░░░░░░░░░░░░░░░
+  JavaScript   42.3%  ████████████████████████████
+  C++          19.6%  ██████████████░░░░░░░░░░░░░░
+  PHP          15.0%  ███████████░░░░░░░░░░░░░░░░░
+  HTML         13.2%  █████████░░░░░░░░░░░░░░░░░░░
+  CSS           4.1%  ███░░░░░░░░░░░░░░░░░░░░░░░░░
   Makefile      1.5%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
   C             1.2%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
   Shell         1.1%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
@@ -111,7 +111,7 @@ jcleng@github:~$ ./stats.sh --all
   2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
   2024   143  ▇▇▇▇▇▇▇▇▇▇························
   2025    95  ▇▇▇▇▇▇····························
-  2026   445  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇····   ← this year
+  2026   452  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇···   ← this year
 ```
 <!--/AUTO:YEARLY-->
 
@@ -137,8 +137,8 @@ jcleng@github:~$ ./stats.sh --all
 | ★ | Repository | Stack | What it is |
 |:---:|---|---|---|
 | **33** | [nixos-configuration](https://github.com/jcleng/nixos-configuration) | `Nix` | nixos 自用配置 |
+| **12** | [opencode-free-provider](https://github.com/jcleng/opencode-free-provider) | `JavaScript` | Local OpenAI-compatible proxy for OpenCode Zen free… |
 | **10** | [finalshell_linux_archive](https://github.com/jcleng/finalshell_linux_archive) | `Shell` | download finalshell_linux.zip from dl.hostbuf.com |
-| **10** | [opencode-free-provider](https://github.com/jcleng/opencode-free-provider) | `JavaScript` | Local OpenAI-compatible proxy for OpenCode Zen free… |
 | **8** | [WineWechat-linux-flatpak](https://github.com/jcleng/WineWechat-linux-flatpak) | `Shell` | Wine微信flatpak版本 |
 | **5** | [finalshell-linux-flatpak](https://github.com/jcleng/finalshell-linux-flatpak) | `Shell` | 一个免费且好用的ssh工具 已经更新到flathub了 |
 | **4** | [opentelemetry-exporter-zincsearch](https://github.com/jcleng/opentelemetry-exporter-zincsearch) | `PHP` | zincsearch exporter for OpenTelemetry. |
@@ -147,7 +147,7 @@ jcleng@github:~$ ./stats.sh --all
 <!--/AUTO:FEATURED-->
 
 <!--AUTO:REPOCOUNT-->
-<sub>`55` original repositories · `76` stars earned · `11` forks received</sub>
+<sub>`56` original repositories · `78` stars earned · `11` forks received</sub>
 <!--/AUTO:REPOCOUNT-->
 
 </div>
