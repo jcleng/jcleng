@@ -111,7 +111,7 @@ jcleng@github:~$ ./stats.sh --all
   2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
   2024   143  ▇▇▇▇▇▇▇▇▇▇························
   2025    95  ▇▇▇▇▇▇····························
-  2026   472  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇··   ← this year
+  2026   478  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇··   ← this year
 ```
 <!--/AUTO:YEARLY-->
 
@@ -137,7 +137,7 @@ jcleng@github:~$ ./stats.sh --all
 | ★ | Repository | Stack | What it is |
 |:---:|---|---|---|
 | **33** | [nixos-configuration](https://github.com/jcleng/nixos-configuration) | `Nix` | nixos 自用配置 |
-| **13** | [opencode-free-provider](https://github.com/jcleng/opencode-free-provider) | `JavaScript` | Local OpenAI-compatible proxy for OpenCode Zen free… |
+| **14** | [opencode-free-provider](https://github.com/jcleng/opencode-free-provider) | `JavaScript` | Local OpenAI-compatible proxy for OpenCode Zen free… |
 | **10** | [finalshell_linux_archive](https://github.com/jcleng/finalshell_linux_archive) | `Shell` | download finalshell_linux.zip from dl.hostbuf.com |
 | **8** | [WineWechat-linux-flatpak](https://github.com/jcleng/WineWechat-linux-flatpak) | `Shell` | Wine微信flatpak版本 |
 | **5** | [finalshell-linux-flatpak](https://github.com/jcleng/finalshell-linux-flatpak) | `Shell` | 一个免费且好用的ssh工具 已经更新到flathub了 |
@@ -147,7 +147,7 @@ jcleng@github:~$ ./stats.sh --all
 <!--/AUTO:FEATURED-->
 
 <!--AUTO:REPOCOUNT-->
-<sub>`56` original repositories · `79` stars earned · `11` forks received</sub>
+<sub>`57` original repositories · `81` stars earned · `11` forks received</sub>
 <!--/AUTO:REPOCOUNT-->
 
 </div>
