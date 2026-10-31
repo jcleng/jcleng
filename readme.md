@@ -43,7 +43,7 @@ jcleng@github:~$ cat /etc/profile.d/operator.conf
   │  UPTIME    :  coding since 2015  ·  11 yrs in the terminal    │
   │  OS        :  NixOS  ·  Arch  ·  Linux  (daily driver)        │
   │  SHELL     :  zsh  +  tmux  +  nvim                           │
-  │  STACK     :  Shell · PHP · JavaScript · Dockerfile · HTML    │
+  │  STACK     :  Shell · PHP · Dockerfile · JavaScript · HTML    │
   │  INTERESTS :  self-hosted · flatpak · homelab · AI agents     │
   │  PHILOSOPHY:  "Automate it, containerize it, self-host it."   │
   └───────────────────────────────────────────────────────────────┘
@@ -62,13 +62,13 @@ jcleng@github:~$ ./stats.sh --all
 
 <!--AUTO:LANGMATRIX-->
 ```text
-  JavaScript   42.4%  ████████████████████████████
+  JavaScript   42.3%  ████████████████████████████
   C++          19.5%  ██████████████░░░░░░░░░░░░░░
   PHP          14.9%  ██████████░░░░░░░░░░░░░░░░░░
   HTML         13.1%  █████████░░░░░░░░░░░░░░░░░░░
   CSS           4.1%  ███░░░░░░░░░░░░░░░░░░░░░░░░░
   Makefile      1.5%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
-  Shell         1.2%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Shell         1.3%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
   C             1.2%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
   Python        0.7%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
@@ -108,10 +108,10 @@ jcleng@github:~$ ./stats.sh --all
 ```text
   2021    85  ▇▇▇▇▇▇····························
   2022    26  ▇▇································
-  2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇
+  2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇·
   2024   143  ▇▇▇▇▇▇▇▇▇▇························
   2025    95  ▇▇▇▇▇▇····························
-  2026   506  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
+  2026   511  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
 ```
 <!--/AUTO:YEARLY-->
 
@@ -147,7 +147,7 @@ jcleng@github:~$ ./stats.sh --all
 <!--/AUTO:FEATURED-->
 
 <!--AUTO:REPOCOUNT-->
-<sub>`58` original repositories · `82` stars earned · `11` forks received</sub>
+<sub>`59` original repositories · `82` stars earned · `11` forks received</sub>
 <!--/AUTO:REPOCOUNT-->
 
 </div>
