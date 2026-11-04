@@ -62,8 +62,8 @@ jcleng@github:~$ ./stats.sh --all
 
 <!--AUTO:LANGMATRIX-->
 ```text
-  JavaScript   42.2%  ████████████████████████████
-  C++          19.5%  ██████████████░░░░░░░░░░░░░░
+  JavaScript   42.3%  ████████████████████████████
+  C++          19.4%  ██████████████░░░░░░░░░░░░░░
   PHP          14.9%  ██████████░░░░░░░░░░░░░░░░░░
   HTML         13.1%  █████████░░░░░░░░░░░░░░░░░░░
   CSS           4.0%  ███░░░░░░░░░░░░░░░░░░░░░░░░░
@@ -111,7 +111,7 @@ jcleng@github:~$ ./stats.sh --all
   2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇··
   2024   143  ▇▇▇▇▇▇▇▇▇·························
   2025    95  ▇▇▇▇▇▇····························
-  2026   531  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
+  2026   533  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
 ```
 <!--/AUTO:YEARLY-->
 
@@ -147,7 +147,7 @@ jcleng@github:~$ ./stats.sh --all
 <!--/AUTO:FEATURED-->
 
 <!--AUTO:REPOCOUNT-->
-<sub>`60` original repositories · `83` stars earned · `11` forks received</sub>
+<sub>`60` original repositories · `82` stars earned · `11` forks received</sub>
 <!--/AUTO:REPOCOUNT-->
 
 </div>
