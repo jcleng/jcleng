@@ -43,7 +43,7 @@ jcleng@github:~$ cat /etc/profile.d/operator.conf
   │  UPTIME    :  coding since 2015  ·  11 yrs in the terminal    │
   │  OS        :  NixOS  ·  Arch  ·  Linux  (daily driver)        │
   │  SHELL     :  zsh  +  tmux  +  nvim                           │
-  │  STACK     :  Shell · PHP · Dockerfile · JavaScript · HTML    │
+  │  STACK     :  Shell · PHP · JavaScript · Dockerfile · HTML    │
   │  INTERESTS :  self-hosted · flatpak · homelab · AI agents     │
   │  PHILOSOPHY:  "Automate it, containerize it, self-host it."   │
   └───────────────────────────────────────────────────────────────┘
@@ -108,10 +108,10 @@ jcleng@github:~$ ./stats.sh --all
 ```text
   2021    85  ▇▇▇▇▇·····························
   2022    26  ▇▇································
-  2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇··
+  2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇···
   2024   143  ▇▇▇▇▇▇▇▇▇·························
   2025    95  ▇▇▇▇▇▇····························
-  2026   541  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
+  2026   545  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
 ```
 <!--/AUTO:YEARLY-->
 
@@ -137,7 +137,7 @@ jcleng@github:~$ ./stats.sh --all
 | ★ | Repository | Stack | What it is |
 |:---:|---|---|---|
 | **33** | [nixos-configuration](https://github.com/jcleng/nixos-configuration) | `Nix` | nixos 自用配置 |
-| **17** | [opencode-free-provider](https://github.com/jcleng/opencode-free-provider) | `JavaScript` | Local OpenAI-compatible proxy for OpenCode Zen free… |
+| **18** | [opencode-free-provider](https://github.com/jcleng/opencode-free-provider) | `JavaScript` | Local OpenAI-compatible proxy for OpenCode Zen free… |
 | **10** | [finalshell_linux_archive](https://github.com/jcleng/finalshell_linux_archive) | `Shell` | download finalshell_linux.zip from dl.hostbuf.com |
 | **8** | [WineWechat-linux-flatpak](https://github.com/jcleng/WineWechat-linux-flatpak) | `Shell` | Wine微信flatpak版本 |
 | **5** | [finalshell-linux-flatpak](https://github.com/jcleng/finalshell-linux-flatpak) | `Shell` | 一个免费且好用的ssh工具 已经更新到flathub了 |
@@ -147,7 +147,7 @@ jcleng@github:~$ ./stats.sh --all
 <!--/AUTO:FEATURED-->
 
 <!--AUTO:REPOCOUNT-->
-<sub>`60` original repositories · `83` stars earned · `11` forks received</sub>
+<sub>`60` original repositories · `84` stars earned · `11` forks received</sub>
 <!--/AUTO:REPOCOUNT-->
 
 </div>
