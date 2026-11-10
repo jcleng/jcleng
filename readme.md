@@ -111,7 +111,7 @@ jcleng@github:~$ ./stats.sh --all
   2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇····
   2024   143  ▇▇▇▇▇▇▇▇··························
   2025    95  ▇▇▇▇▇▇····························
-  2026   573  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
+  2026   574  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
 ```
 <!--/AUTO:YEARLY-->
 
@@ -142,12 +142,12 @@ jcleng@github:~$ ./stats.sh --all
 | **8** | [WineWechat-linux-flatpak](https://github.com/jcleng/WineWechat-linux-flatpak) | `Shell` | Wine微信flatpak版本 |
 | **5** | [finalshell-linux-flatpak](https://github.com/jcleng/finalshell-linux-flatpak) | `Shell` | 一个免费且好用的ssh工具 已经更新到flathub了 |
 | **4** | [opentelemetry-exporter-zincsearch](https://github.com/jcleng/opentelemetry-exporter-zincsearch) | `PHP` | zincsearch exporter for OpenTelemetry. |
+| **2** | [soh-flatpak](https://github.com/jcleng/soh-flatpak) | `Shell` | 非官方 Ship of Harkinian（时之笛 PC 移植）Flatpak：… |
 | **1** | [deepin-wine6-stable-flatpak](https://github.com/jcleng/deepin-wine6-stable-flatpak) | `Shell` | for 32位支持 |
-| **1** | [ghcr-proxy](https://github.com/jcleng/ghcr-proxy) | `Dockerfile` | 🤖 用 Caddy 反向代理加速 ghcr.io 镜像拉取 |
 <!--/AUTO:FEATURED-->
 
 <!--AUTO:REPOCOUNT-->
-<sub>`63` original repositories · `85` stars earned · `11` forks received</sub>
+<sub>`63` original repositories · `86` stars earned · `11` forks received</sub>
 <!--/AUTO:REPOCOUNT-->
 
 </div>
