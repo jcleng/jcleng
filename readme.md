@@ -43,7 +43,7 @@ jcleng@github:~$ cat /etc/profile.d/operator.conf
   │  UPTIME    :  coding since 2015  ·  11 yrs in the terminal    │
   │  OS        :  NixOS  ·  Arch  ·  Linux  (daily driver)        │
   │  SHELL     :  zsh  +  tmux  +  nvim                           │
-  │  STACK     :  Shell · PHP · JavaScript · Dockerfile · HTML    │
+  │  STACK     :  Shell · PHP · JavaScript · Dockerfile · C       │
   │  INTERESTS :  self-hosted · flatpak · homelab · AI agents     │
   │  PHILOSOPHY:  "Automate it, containerize it, self-host it."   │
   └───────────────────────────────────────────────────────────────┘
@@ -69,7 +69,7 @@ jcleng@github:~$ ./stats.sh --all
   CSS           4.0%  ███░░░░░░░░░░░░░░░░░░░░░░░░░
   Makefile      1.5%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
   Shell         1.4%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
-  C             1.2%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  C             1.3%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
   Python        0.8%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 <!--/AUTO:LANGMATRIX-->
@@ -111,7 +111,7 @@ jcleng@github:~$ ./stats.sh --all
   2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇······
   2024   143  ▇▇▇▇▇▇▇▇··························
   2025    95  ▇▇▇▇▇·····························
-  2026   599  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
+  2026   606  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
 ```
 <!--/AUTO:YEARLY-->
 
@@ -147,7 +147,7 @@ jcleng@github:~$ ./stats.sh --all
 <!--/AUTO:FEATURED-->
 
 <!--AUTO:REPOCOUNT-->
-<sub>`64` original repositories · `87` stars earned · `11` forks received</sub>
+<sub>`64` original repositories · `88` stars earned · `12` forks received</sub>
 <!--/AUTO:REPOCOUNT-->
 
 </div>
