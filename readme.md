@@ -111,7 +111,7 @@ jcleng@github:~$ ./stats.sh --all
   2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇·······
   2024   143  ▇▇▇▇▇▇▇▇··························
   2025    95  ▇▇▇▇▇·····························
-  2026   634  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
+  2026   635  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
 ```
 <!--/AUTO:YEARLY-->
 
@@ -143,11 +143,11 @@ jcleng@github:~$ ./stats.sh --all
 | **5** | [finalshell-linux-flatpak](https://github.com/jcleng/finalshell-linux-flatpak) | `Shell` | 一个免费且好用的ssh工具 已经更新到flathub了 |
 | **4** | [opentelemetry-exporter-zincsearch](https://github.com/jcleng/opentelemetry-exporter-zincsearch) | `PHP` | zincsearch exporter for OpenTelemetry. |
 | **4** | [soh-flatpak](https://github.com/jcleng/soh-flatpak) | `Shell` | 非官方 Ship of Harkinian（时之笛 PC 移植）Flatpak：… |
-| **1** | [deepin-wine6-stable-flatpak](https://github.com/jcleng/deepin-wine6-stable-flatpak) | `Shell` | for 32位支持 |
+| **2** | [revert_amap](https://github.com/jcleng/revert_amap) | `Python` | 逆向修复 BYD DiLink 车机版高德地图（车道级导航版）… |
 <!--/AUTO:FEATURED-->
 
 <!--AUTO:REPOCOUNT-->
-<sub>`65` original repositories · `89` stars earned · `12` forks received</sub>
+<sub>`65` original repositories · `90` stars earned · `12` forks received</sub>
 <!--/AUTO:REPOCOUNT-->
 
 </div>
