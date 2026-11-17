@@ -43,7 +43,7 @@ jcleng@github:~$ cat /etc/profile.d/operator.conf
   │  UPTIME    :  coding since 2015  ·  11 yrs in the terminal    │
   │  OS        :  NixOS  ·  Arch  ·  Linux  (daily driver)        │
   │  SHELL     :  zsh  +  tmux  +  nvim                           │
-  │  STACK     :  Shell · PHP · JavaScript · Dockerfile · C       │
+  │  STACK     :  Shell · PHP · JavaScript · Dockerfile · Python  │
   │  INTERESTS :  self-hosted · flatpak · homelab · AI agents     │
   │  PHILOSOPHY:  "Automate it, containerize it, self-host it."   │
   └───────────────────────────────────────────────────────────────┘
@@ -63,14 +63,14 @@ jcleng@github:~$ ./stats.sh --all
 <!--AUTO:LANGMATRIX-->
 ```text
   JavaScript   41.7%  ████████████████████████████
-  C++          19.4%  ██████████████░░░░░░░░░░░░░░
-  PHP          14.7%  ██████████░░░░░░░░░░░░░░░░░░
-  HTML         12.9%  █████████░░░░░░░░░░░░░░░░░░░
+  C++          19.2%  █████████████░░░░░░░░░░░░░░░
+  PHP          14.6%  ██████████░░░░░░░░░░░░░░░░░░
+  HTML         13.0%  █████████░░░░░░░░░░░░░░░░░░░
   CSS           4.0%  ███░░░░░░░░░░░░░░░░░░░░░░░░░
   Makefile      1.5%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
   Shell         1.4%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
   C             1.3%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
-  Python        0.8%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  Python        1.1%  █░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 <!--/AUTO:LANGMATRIX-->
 
@@ -111,7 +111,7 @@ jcleng@github:~$ ./stats.sh --all
   2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇·······
   2024   143  ▇▇▇▇▇▇▇▇··························
   2025    95  ▇▇▇▇▇·····························
-  2026   636  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
+  2026   640  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
 ```
 <!--/AUTO:YEARLY-->
 
@@ -147,7 +147,7 @@ jcleng@github:~$ ./stats.sh --all
 <!--/AUTO:FEATURED-->
 
 <!--AUTO:REPOCOUNT-->
-<sub>`65` original repositories · `90` stars earned · `12` forks received</sub>
+<sub>`66` original repositories · `90` stars earned · `12` forks received</sub>
 <!--/AUTO:REPOCOUNT-->
 
 </div>
