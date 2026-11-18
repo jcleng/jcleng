@@ -106,12 +106,12 @@ jcleng@github:~$ ./stats.sh --all
 
 <!--AUTO:YEARLY-->
 ```text
-  2021    85  ▇▇▇▇▇·····························
+  2021    85  ▇▇▇▇······························
   2022    26  ▇·································
   2023   502  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇·······
   2024   143  ▇▇▇▇▇▇▇▇··························
   2025    95  ▇▇▇▇▇·····························
-  2026   640  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
+  2026   644  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇   ← peak
 ```
 <!--/AUTO:YEARLY-->
 
@@ -142,12 +142,12 @@ jcleng@github:~$ ./stats.sh --all
 | **8** | [WineWechat-linux-flatpak](https://github.com/jcleng/WineWechat-linux-flatpak) | `Shell` | Wine微信flatpak版本 |
 | **5** | [finalshell-linux-flatpak](https://github.com/jcleng/finalshell-linux-flatpak) | `Shell` | 一个免费且好用的ssh工具 已经更新到flathub了 |
 | **4** | [opentelemetry-exporter-zincsearch](https://github.com/jcleng/opentelemetry-exporter-zincsearch) | `PHP` | zincsearch exporter for OpenTelemetry. |
-| **4** | [soh-flatpak](https://github.com/jcleng/soh-flatpak) | `Shell` | 非官方 Ship of Harkinian（时之笛 PC 移植）Flatpak：… |
+| **3** | [soh-flatpak](https://github.com/jcleng/soh-flatpak) | `Shell` | 非官方 Ship of Harkinian（时之笛 PC 移植）Flatpak：… |
 | **2** | [revert_amap](https://github.com/jcleng/revert_amap) | `Python` | 逆向修复 BYD DiLink 车机版高德地图（车道级导航版）… |
 <!--/AUTO:FEATURED-->
 
 <!--AUTO:REPOCOUNT-->
-<sub>`66` original repositories · `90` stars earned · `12` forks received</sub>
+<sub>`66` original repositories · `89` stars earned · `12` forks received</sub>
 <!--/AUTO:REPOCOUNT-->
 
 </div>
